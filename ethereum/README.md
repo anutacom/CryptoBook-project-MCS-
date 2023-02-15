@@ -20,11 +20,11 @@
 8)  в файле hardhat.config.js вставляем после версии solidity 
 goerli: {
       url: 'добавляем адрес из endpoints',
-      accounts: 'добавляем приватный ключ из Metamask суть Guerli',
+      accounts: 'добавляем приватный ключ из Metamask суть Goerli',
     },
   },
 
-9) npx hardhat run scripts/deploy.js --network guerli
+9) npx hardhat run scripts/deploy.js --network goerli
 
 10) в Remix выбрать Enjected Provider появится адрес Metamask  и за газ проверить работу контракта
 
